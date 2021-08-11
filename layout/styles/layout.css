@@ -315,8 +315,8 @@ label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#97A9BD !important;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(40,46,57,.7);/* #282E39 */}
-.overlay.light::after{background-color:rgba(151,169,189,.7);/* #97A9BD */}
+.overlay::after{color:inherit; background-color:rgba(40,46,57,.6);/* #282E39 */}
+.overlay.light::after{background-color:rgba(151,169,189,.3);/* #97A9BD */}
 
 .gradient{color:#474747; background:linear-gradient(to bottom, #F4F4F4 55%, #FFFFFF 50%, #FFFFFF 100%);}/* Overlap dark to make a hard transition */
 @media screen and (max-width:750px){/* Only the colours height has been changed */
@@ -340,7 +340,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#97A9BD !important;}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#A5A6AA; background-color:#000000;}
 .row5, .row5 a{color:#A5A6AA; background-color:#282E39;}
-.coloured{color:#FFFFFF; background-color:#97A9BD;}
+.coloured{color:#FFFFFF; background-color:#184D47;}
 
 
 /* Header */
@@ -353,8 +353,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#97A9BD !important;}
 
 /* Content Area */
 .elements article{color:#474747; background-color:#FFFFFF; box-shadow:0px 0px 15px rgba(0,0,0,.3);}
-.elements article:hover{color:#FFFFFF; background-color:#97A9BD;}/* Default */
-.elements article a i{color:#FFFFFF; background-color:#97A9BD;}/* Default */
+.elements article:hover{color:#000000; background-color:#FAD586;}/* Default */
+.elements article a i{color:#000000; background-color:#FAD586;}Default
 .elements article:hover a i{color:#97A9BD; background-color:#FFFFFF;}/* Default */
 
 /* ###### DELETE THE FOLLOWING IF ONLY THE DEFAULT COLOUR IS REQUIRED ###### */
@@ -436,7 +436,11 @@ tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
 table a, #comments a{background-color:inherit;}
 
-
+#logo #logopic {
+	width: 10%;
+	margin-right:30px;
+	margin-bottom: 15px;
+} 
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
